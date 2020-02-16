@@ -10,6 +10,7 @@ We are mainly targeting game levels which formats became open source (to prevent
 
 ## A word about Licence
 Those loaders are published under the WTFPLv2 (basically that means that you can do anything you want
+
 Like public domain / CC0
 
 ## Loaders
