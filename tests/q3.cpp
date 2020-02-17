@@ -40,9 +40,9 @@ int main(int argc, char** argv)
     std::cout << "There are " << count << " textures:" << std::endl;
     
     for (unsigned int i = 0; i < count; ++i)
-	{
-	    const qll::q3::Texture& texture_raw = level_data.textures[i];
-	    std::cout << "- " << texture_raw.name << std::endl;
+    {
+        const qll::q3::Texture& texture_raw = level_data.textures[i];
+        std::cout << "- " << texture_raw.name << std::endl;
     }
     
     std::cout << std::endl;

@@ -36,7 +36,7 @@ int main(int argc, char** argv)
     std::vector<std::map<std::string, std::string>> entities = qll::q3::parse_entities(level_data.entities);
     
     // Example game code to load entities
-    MyGame::EntityList::loadFromQ3(entities, level.models);
+    MyGame::EntityList::loadFromQ3(entities, level_data.models);
     
     // Another example: Extract all level textures names
     for (unsigned int i = 0; i < level_data.textures.size(); ++i)
