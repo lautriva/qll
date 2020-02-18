@@ -1,16 +1,16 @@
 #include <iostream>
 
-#define QLL_Q3_IMPLEMENTATION // Do this define only in one CPP file
+#define QLL_Q3_IMPLEMENTATION
 #include "../qll_q3.h"
 
 int main(int argc, char** argv)
 {
     unsigned int count;
     
-    // In this example, we consider that a map called "my_map.bsp" is in the application folder
+    // Load the map
     qll::q3::Q3Level level = qll::q3::Q3Level("data/test.bsp");
     
-    const qll::q3::LevelData level_data = level.getData();
+    qll::q3::LevelData level_data = level.getData();
     
     // Example: we fetch entities key/values
     // Each map contained in the vector represents one entity with its key/values (all as string)
